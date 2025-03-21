@@ -1,4 +1,4 @@
-import { FaFacebook, FaTimes, FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaInstagram, FaTiktok } from 'react-icons/fa';
 import './footer.css';
 import {FaXTwitter} from "react-icons/fa6";
 
