@@ -1,33 +1,80 @@
-.header {
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 16px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #282d2f;
-    padding: 15px 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
 }
 
-.title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.icons {
+.left-section {
     display: flex;
-    gap: 20px; /* Space between icons */
+    align-items: center;
+    gap: 16px;
 }
 
-.icon {
-    color: #ffffff;
+.logo {
     font-size: 20px;
-    cursor: pointer;
-    transition: color 0.3s ease;
+    font-weight: bold;
 }
 
-.icon:hover {
-    color: #008925; /* Change color on hover */
+nav {
+    display: flex;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+nav button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button:hover {
+    color: gray;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container input {
+    background-color: #333;
+    padding: 10px 12px 10px 32px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    color: white;
+}
+
+.search-container input:focus {
+    outline: none;
+    border-color: white;
+}
+
+.search-container svg {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.icon-button {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.icon-button:hover {
+    color: gray;
 }
