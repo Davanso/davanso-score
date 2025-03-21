@@ -1,4 +1,4 @@
-import {FaGoogle, FaFacebook, FaApple, FaTimes} from 'react-icons/fa';
+import {FaGoogle, FaFacebook, FaApple} from 'react-icons/fa';
 import './login.css';
 import {useNavigate} from "react-router-dom";
 
