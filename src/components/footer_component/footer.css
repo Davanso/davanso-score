@@ -1,37 +1,73 @@
-.footer {
-    background-color: #282d2f; /* Same as header */
-    padding: 20px;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-    color: #ffffff;
-}
-
-.footerContent {
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    text-align: center;
 }
 
-.title {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+h1 {
     margin: 0;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.links {
+.top-section {
     display: flex;
-    gap: 20px; /* Space between links */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #333;
 }
 
-.link {
-    color: #ffffff;
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 10px;
+    border-bottom: 1px solid #333;
+}
+
+.middle-section nav a {
+    margin: 0 12px;
+    color: white;
     text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s ease;
 }
 
-.link:hover {
-    color: #008925; /* Change color on hover */
+.middle-section nav a:hover {
+    color: gray;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+    font-size: 20px;
+}
+
+.social-icons a {
+    color: white;
+}
+
+.social-icons a:hover {
+    color: gray;
+}
+
+.bottom-section {
+    padding-top: 16px;
+    width: 100%;
+}
+
+.bottom-section nav a {
+    margin: 0 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-section nav a:hover {
+    color: gray;
 }
