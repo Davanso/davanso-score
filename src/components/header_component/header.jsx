@@ -1,4 +1,4 @@
-import { FaUserCircle, FaStar, FaQuestionCircle, FaCog } from 'react-icons/fa';
+import { FaStar, FaQuestionCircle, FaCog } from 'react-icons/fa';
 import { IoSearch } from 'react-icons/io5';
 import { BiFootball, BiBasketball, BiTennisBall } from 'react-icons/bi';
 import {GiBoxingGlove, GiFullMotorcycleHelmet, GiVolleyballBall} from 'react-icons/gi';
