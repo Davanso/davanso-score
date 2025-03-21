@@ -89,3 +89,27 @@ nav button:hover {
     border-radius: 50%;
     cursor: pointer;
 }
+
+.profile-menu {
+    position: absolute;
+    top: 50px;  /* Adjust based on your layout */
+    right: 0;
+    background-color: white;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-menu button {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.profile-menu button:hover {
+    background-color: #f0f0f0;
+}
