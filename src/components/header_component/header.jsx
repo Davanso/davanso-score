@@ -1,11 +1,14 @@
 import { FaStar, FaQuestionCircle, FaCog } from 'react-icons/fa';
 import { IoSearch } from 'react-icons/io5';
 import { BiFootball, BiBasketball, BiTennisBall } from 'react-icons/bi';
-import {GiBoxingGlove, GiFullMotorcycleHelmet, GiVolleyballBall} from 'react-icons/gi';
+import { GiBoxingGlove, GiFullMotorcycleHelmet, GiVolleyballBall } from 'react-icons/gi';
+import { CgProfile } from "react-icons/cg";
+import { useNavigate } from 'react-router-dom';
 import './header.css';
-import {CgProfile} from "react-icons/cg";
 
 const Header = () => {
+    const navigate = useNavigate();
+
     return (
         <header>
             <div className="left-section">
@@ -26,7 +29,7 @@ const Header = () => {
                     <input type="text" placeholder="Pesquisar no DavansoScore!" />
                 </div>
 
-                <CgProfile className="icon-button" />
+                <CgProfile className="icon-button" onClick={() => navigate('/login')} />
                 <FaStar className="icon-button" />
                 <FaQuestionCircle className="icon-button" />
                 <FaCog className="icon-button" />

@@ -1,0 +1,94 @@
+.login-container {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 26px;
+    text-align: center;
+    border-radius: 8px;
+    width: 320px;
+    height: 290px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: gray;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.close-button {
+    position: relative;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: 310px;
+    margin: auto;
+}
+
+.close-button:hover {
+    border: 0.1rem solid #333333;
+    background-color: #333;
+}
+
+.google-login {
+    background-color: #000;
+    color: white;
+    transition: background-color 0.3s ease;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.google-login:hover {
+    background-color: #333;
+    border: 1px solid #f4f4f4;
+}
+
+.facebook-login {
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.facebook-login:hover {
+    background-color: #000;
+    border: 1px solid #555555;
+}
+
+.apple-login {
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+.apple-login:hover {
+    background-color: #000;
+    border: 1px solid #555555;
+}
+
+button .icon {
+    margin-right: 8px;
+    font-size: 18px;
+}
